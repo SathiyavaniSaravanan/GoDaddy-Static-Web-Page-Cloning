@@ -1,0 +1,1702 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* navbar1 starts */
+.navsec
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+
+.navsec .navart
+{
+    height: 75px;
+    width: 94%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    display: flex;
+}
+.navsec .navart .logo
+{
+   height: 75px;
+   width: 15%;
+   /* border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.navsec .navart .menu
+{
+    height: 75px;
+    width: 55%;
+    /* border: 1px solid yellow; */
+}
+.navsec .navart .menu ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.navsec .navart .menu ul li
+{
+    margin-top: 30px;
+
+}
+.navsec .navart .menu ul li a
+{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #888;
+}
+/* .navsec .navart .menu ul li a:hover
+{
+    color: #000;
+} */
+.navsec .navart .auth
+{
+    height: 75px;
+    width: 30%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+.navsec .navart .auth div
+{
+    margin-left: 25px;
+    list-style-type: none;
+}
+.navsec .navart .auth div a
+{
+    text-decoration: none;
+    color: #000;
+}
+.navsec .navart .auth #auth1
+{
+    height: 290px;
+    width: 94%;
+    padding: 40px;
+    /* border: 1px solid goldenrod; */
+
+
+}
+
+/* navbar2 starts */
+.navsec2
+{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+
+.navsec2 .navart2
+{
+    height: 75px;
+    width: 94%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    display: flex;
+}
+.navsec2 .navart2 .inputarea
+{
+    height: 75px;
+    width: 65%;
+    /* border: 1px solid red;  */ 
+}
+.navsec2 .navart2 .inputarea input
+{
+    height: 60px;
+    width: 70%;
+    border: 2px solid #EBEBEB;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 17px;
+    background-color: #EBEBEB;
+}
+.navsec2 .navart2 .inputarea button
+{
+    height: 60px;
+    width: 20%;
+    border: 2px solid #00838C;
+    margin-left: -5px;
+    margin-top: 5px;
+    font-size: 14px;
+    background-color: #00838C;
+    
+}
+.navsec2 .navart2 .inputarea button a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navsec2 .navart2 .price
+{
+    height: 75px;
+    width: 35%;
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.navsec2 .navart2 .price a
+{
+    color:#888;
+    text-decoration: none;
+}
+.navsec2 .navart2 .price div .price1
+{
+    height: 40px;
+    width: 30px;
+    /* border: 1px solid olive; */
+}
+.navsec2 .navart2 .price div svg
+{
+   color: #888;
+}
+/* Dhoni sec starts */
+.dhonisec
+{
+    height: 55vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.dhonisec .dhoniart
+{
+    height: 55vh;
+    width: 94%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.dhonisec .dhoniart .dhonidiv1
+{
+    height: 55vh;
+    width: 25%;
+    /* border: 2px solid salmon; */
+    padding: 30px 30px;
+    background-color: #DDEAF8;
+
+}
+.dhonisec .dhoniart .dhonidiv1 h2
+{
+    font-size: 16px;
+}
+.dhonisec .dhoniart .dhonidiv1 h3
+{
+    font-size: 32px;
+    margin-top: 12px;
+}
+.dhonisec .dhoniart .dhonidiv1 div
+{
+    font-size: 14px;
+    margin-top: 16px;
+}
+.dhonisec .dhoniart .dhonidiv1 button
+{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #000;
+    color: white;
+    margin-top: 24px;
+    position: relative;
+
+}
+.fa-icon
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.dhonisec .dhoniart .dhonidiv1 .dhonicontent button .text
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+
+}
+.dhonisec .dhoniart .dhonidiv1 button a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.dhonisec .dhoniart .dhonidiv1 .dhonip2
+{
+    font-size: 12.64px;
+    margin-top: 30px;
+}
+
+
+.dhonisec .dhoniart .dhonidiv2
+{
+    height: 55vh;
+    width: 75%;
+    /* border: 2px solid saddlebrown; */
+    margin-left: 15px;
+    background-image: url("./Assets/Images/75068_MRQ_IN-HP_V2_Landscape.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent
+{
+    position: absolute;
+    top: 160px;
+    left: 890px; 
+    padding: 30px 30px;
+    /* background-color: blue; */
+}
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent h2
+{
+    font-size: 16px;
+}
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent h3
+{
+    font-size: 32px;
+    margin-top: 12px;
+}
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent div
+{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent button
+{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #000;
+    color: white;
+    margin-top: 32px;
+    position: relative;
+}
+.fa-icon1
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.dhonisec .dhoniart .dhonidiv1 .dhonicontent button .text1
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+
+}
+.dhonisec .dhoniart .dhonidiv2 .dhonicontent button a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* small table starts */
+.smalltab
+{
+    height: 30vh;
+    width: 100%;
+    /* border: 1px solid brown; */
+    margin: 25px auto;
+}
+.smalltab .smalltabart
+{
+    height: 30vh;
+    width: 94%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+
+}
+.smalltab .smalltabart ul 
+{
+    margin: 0 ;
+
+}
+
+.smalltab .smalltabart ul li
+{
+    height: 15vh;
+    width: 250px;
+    border:0.5px solid grey;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+     
+}
+.smalltab .smalltabart ul li i
+{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.smalltab .smalltabart ul li p
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+
+}
+.smalltab .smalltabart ul li a
+{
+    text-decoration: none;
+    color: #888;
+    text-align: center;
+}
+.smalltab .smalltabart .smalltabdiv1
+{
+    height: 30vh;
+    width: 265px;
+    /* border: 1px solid yellow; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
+.smalltabdiv1 .smalltab .smalltabart .smalltabdiv1 .smalldivpara
+{
+    height: 30vh;
+    width: 250px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+
+}
+.smalltab .smalltabart .smalltabdiv1 .smalldivpara p
+{
+    padding-left: 30px;
+}
+.smalltab .smalltabart .smalltabdiv1 .smalldivpara image
+{
+   text-align: center;
+}
+
+/* review starts */
+.review 
+{
+    height: 115vh;
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    margin: 0 auto;
+    
+
+}
+      /* review1 starts */
+.review .review1
+{
+    height: 15vh;
+    width: 94%;
+    /* border: 1px solid violet; */
+    margin: 0 auto;
+}
+.review .review1 .reviewhead
+{
+    width: 44%;
+    height: 15vh;
+    /* border: 1px solid rebeccapurple; */
+}
+.review .review1 .reviewhead h1
+{
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 1;
+    color: #111;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+        /* review2 starts */
+.review .review2
+{
+    height: 68vh;
+    width: 94%;
+    /* border: 1px solid orange; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.review .review2 .reviewdiv1
+{
+    height: 100%;
+    width: 24%;
+    /* border: 1px solid orangered; */
+    border-radius: 5px;
+    padding: 25px;
+    background: #f5f7f8;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.review .review2 .reviewdiv1 .reviewsvg
+{
+    height: 8%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+.review .review2 .reviewdiv1 .reviewpara1
+{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid yellowgreen; */
+    color:  #2b2b2b;
+}
+.review .review2 .reviewdiv1 .reviewpara2
+{
+    height: 12%;
+    width: 100%;
+    /* border: 1px solid green; */
+    font-size: 12px;
+    line-height: 20px;
+}
+         /* review3 starts */
+.review .review3
+{
+    height: 32vh;
+    width: 94%;
+    /* border: 1px solid olive; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.review .review3 .reviewlogo
+{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid orchid; */
+    color: #111
+}
+.review .review3 .reviewlogo .reviewlogo1
+{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid olivedrab; */
+}
+.review .review3 .reviewlogo .reviewlogo1 .reviewanch
+{
+    height: 30%;
+    width: 40%;
+    /* border: 1px solid orangered; */
+}
+.review .review3 .reviewlogo .reviewlogo1 .reviewsvgimg
+{
+    height: 70%;
+    width: 40%;
+    /* border: 1px solid orange; */
+}
+.review .review3 .reviewlogo .reviewlogo1 svg
+{
+     margin-top: 30px;
+}
+.review .review3 .reviewlogo .reviewfoot
+{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid royalblue; */
+}
+.review .review3 .reviewlogo .reviewfoot span
+{
+    height: 20px;
+    width: 50%;
+    color: #111;
+
+}
+.review .review3 .reviewfont
+{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid rgb(107, 13, 104); */
+    color: #111;
+    padding-top: 50px;
+    padding-left: 70px;
+    
+}
+
+.review .review3 .reviewfont button
+{
+    height: 42px;
+    width: 42px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+/* images starts */
+.imagesec
+{
+    height: 255vh;
+    width: 100%;
+    /* border: 1px solid purple; */
+    margin: 0 auto;
+    margin-top: 25px;
+}
+      /* image sec1 starts */
+.imagesec .imagesec1
+{
+    height: 85vh;
+    width: 94%;
+    margin: 0 auto;
+    /* border: 1px solid palevioletred; */
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+
+}
+.imagesec .imagesec1 .imageseccontentdiv1
+{
+   height: 85vh;
+   width: 57%;
+   /* border: 1px solid brown; */
+   position: relative
+}
+.imagesec .imagesec1 .imageseccontentdiv1 .imageseccontent1
+{
+    height: 220px;
+    width:485px;
+    /* border: 1px solid limegreen; */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.imagesec .imagesec1 .imageseccontentdiv1 .imageseccontent1 h2
+{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.imagesec .imagesec1 .imageseccontentdiv1 .imageseccontent1 h3
+{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.imagesec .imagesec1 .imageseccontentdiv1 .imageseccontent1 #imgbtn1
+{
+    height: 48px;
+    width: 162px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+.imageseccontent1 #imgbtn1 .fa-icon21
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.imageseccontent1 #imgbtn1 #imgtab1
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+    font-size: 12.8px;
+    padding-top: 15px;
+}
+.imagesec .imagesec1 .imageseccontentdiv1 .imageseccontent1 button a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.imagesec .imagesec1 .imagesecbg1
+{
+    height: 85vh;
+    width: 43%;
+    /* border: 1px solid lime; */
+    background-image: url("./Assets/Images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+       /* image sec2 starts */
+.imagesec .imagesec2
+{
+    height: 85vh;
+    width: 94%;
+    /* border: 1px solid palevioletred; */
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+
+}
+.imagesec .imagesec2 .imagesecbg2
+{
+    height: 85vh;
+    width: 43%;
+    /* border: 1px solid lime; */
+    background-image: url("./Assets/Images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.imagesec .imagesec2 .imageseccontentdiv2
+{
+    height: 85vh;
+    width: 100%;
+    /* border: 1px solid brown; */
+    position: relative
+}
+
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2
+{
+    height: 260px;
+    width:485px;
+    /* border: 1px solid limegreen; */
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2 h2
+{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2 h3
+{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2 p
+{
+    font-size: 16px;
+}
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2 #imgbtn2
+{
+    height: 48px;
+    width: 162px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+}
+.imageseccontent2 #imgbtn2 .fa-icon22
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.imageseccontent2 #imgbtn2 #imgtab2
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+    font-size: 12.8px;
+    padding-top: 15px;
+}
+.imagesec .imagesec2 .imageseccontentdiv2 .imageseccontent2 button a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+     /* imgage sec3 starts */
+.imagesec .imagesec3
+{
+    height: 85vh;
+    width: 94%;
+    /* border: 1px solid palevioletred; */
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+
+}
+.imagesec .imagesec3 .imageseccontentdiv3
+{
+   height: 85vh;
+   width: 57%;
+   /* border: 1px solid brown; */
+   position: relative
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3
+{
+    height: 280px;
+    width:485px;
+    /* border: 1px solid limegreen; */
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3 h2
+{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3 h3
+{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3 p
+{
+    font-size: 16px;
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3 #imgbtn3
+{
+    height: 48px;
+    width: 192px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    background-color: white;
+}
+.imageseccontent3 #imgbtn3 .fa-icon23
+{
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    opacity:0;
+    transform:translate(0%);
+    transition:0.6s;
+    /* color: red; */
+    text-align: center;
+}
+.imageseccontent3 #imgbtn3 #imgtab3
+{
+    transform:translate(0%);
+    transition:0.6s;
+    text-align: center;
+    font-size: 12.8px;
+    padding-top: 15px;
+}
+.imagesec .imagesec3 .imageseccontentdiv3 .imageseccontent3 button a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.imagesec .imagesec3 .imagesecbg3
+{
+    height: 85vh;
+    width: 43%;
+    /* border: 1px solid lime; */
+    background-image: url("./Assets/Images/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* single video starts */
+.svideosec
+{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid lightcoral; */
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.svideosec .svideoart
+{
+    height: 80vh;
+    width: 94%;
+    /* border: 1px solid springgreen; */
+    margin: 0 auto;
+    background-image: url("./Assets/Images/img-in-hp-imc-campaign.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svideosec .svideoart .svideodiv
+{
+    height: 20vh;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    position: relative;
+    background: transparent;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+}
+.svideosec .svideoart .svideodiv i
+{
+    
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+/* multivideo starts */
+.multivideosec
+{
+    height: 55vh;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #2f1a4b;
+}
+.multivideosec .multivideoart
+{
+    height: 55vh;
+    width: 94%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.multivideosec .multivideoart .multivideohead
+{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid slateblue; */
+    text-align:center;
+    color: white;
+    padding: 10px;
+}
+.multivideosec .multivideoart .multivideohead span
+{
+    font-size: 25px;
+}
+.multivideosec .multivideoart .multivideo
+{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid steelblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.multivideosec .multivideoart .multivideo .multivideobg
+{
+    height: 100%;
+    width: 33.3%;
+    /* border: 1px solid blueviolet; */
+    padding: 5px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont1
+{
+    background-image: url("./Assets/Images/multi-bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 75%;
+    width: 340px;
+    margin: 0 auto;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont2
+{
+    background-image: url("./Assets/Images/multi-bg2.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 75%;
+    width: 340px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont3
+{
+    background-image: url("./Assets/Images/multi-bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 75%;
+    width: 340px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont1 .multivideofont
+{
+    position: relative;
+    background: transparent;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    top: 65px;
+    left: 125px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont1 i
+{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont2 .multivideofont
+{
+    position: relative;
+    background: transparent;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    top: 65px;
+    left: 125px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont2 i
+{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont3 .multivideofont
+{
+    position: relative;
+    background: transparent;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    top: 65px;
+    left: 125px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideofont3 i
+{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+.multivideosec .multivideoart .multivideo .multivideobg .multivideopara
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 13px;
+    color: white;
+}
+/* Domain starts */
+.domainsec
+{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #D8EFEF;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.domainsec .domainart
+{
+    height: 50vh;
+    width: 94%;
+    /* border: 1px solid salmon; */
+    margin:0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.domainsec .domainart .domain1
+{
+    height: 24vh;
+    width: 100%;
+    /* border: 1px solid sandybrown; */
+    text-align: center;
+}
+.domainsec .domainart .domain2
+{
+    height: 16vh;
+    width: 100%;
+    /* border: 1px solid lightseagreen; */
+    display: flex;
+
+}
+.domainsec .domainart .domain1 h2
+{
+    font-size: 50px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.domainsec .domainart .domain1 p
+{
+    font-size: 16px;
+    color: #2b2b2b;
+}
+.domainsec .domainart .domain2 #domaininput
+{
+    height: 58px;
+    width: 490px;
+    border: 1px solid white;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #2b2b2b;
+    margin-left: 12px;
+    margin: 0 auto;
+}
+.domainsec .domainart .domain2 button
+{
+    height: 58px;
+    width: 110px;
+    border: 1px solid black;
+    background-color: #000;
+    margin: 0 auto;
+    margin-left: -333px;
+}
+.domainsec .domainart .domain2 button a
+{
+    text-decoration: none;
+    color: white;
+}
+/* Guide sec starts */
+.guidesec
+{
+    height: 65vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url("./Assets/Images/mrq-Guide-IN-PK-Suraiya-desktop.webp");
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    padding: 4vh 0;
+    font-family: gd-sage,"Times","Times New Roman",serif;;
+    padding-right: 100px;
+}
+.guidesec figcaption
+{
+    height: 39px;
+    width: 91px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #111;
+    /* border: 1px solid green; */
+    margin-left: 40px;
+    padding-top: 8px;
+
+}
+.guidesec .guidecontent
+{
+    height: 47vh;
+    width: 45%;
+    float: right;
+    margin: 0 auto;
+   padding: 10px;
+    /* border: 1px solid lightcoral; */
+}
+.guidesec .guidecontent h2
+{
+    height: 62px;
+    width: 550px;
+    font-size: 52px;
+    margin-bottom: 8px;
+    font-family: gd-sage,"Times","Times New Roman",serif;;
+}
+.guidesec .guidecontent .p1
+{
+    height: 48px;
+    width: 550px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.guidesec .guidecontent .p2
+{
+    height: 24px;
+    width: 550px;
+    font-size: 16px;
+}
+.guidesec .guidecontent form
+{
+    display: flex;
+    height: 53px;
+    width: 100%;
+}
+.guidesec .guidecontent form #ques
+{
+    height: 47px;
+    width: 80%;
+    padding: 12px;
+
+}
+.guidesec .guidecontent form button
+{
+    height: 47px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #111;
+    opacity: 1;
+    color: white;
+}
+.guidesec .guidecontent .twoanch
+{
+    height: 52px;
+    width: 632px;
+    margin-top: 24px;
+}
+.guidesec .guidecontent .twoanch a
+{
+    text-decoration: none;
+    color: #111;
+    margin: 0 16px;
+    padding: 12px 0;
+    font-size: 12.8px;
+    font-weight: bold;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.guidesec .guidecontent .twoanch a:hover
+{
+    text-decoration: underline;
+    font-size: 13px;
+}
+/* details head sec starts */
+.detailsheadsec
+{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid olive; */
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.detailsheadsec .detailsheadsecdiv
+{
+    height: 45vh;
+    width: 76;
+    /* border: 1px solid blue; */
+    margin: 0px 150px 25px 150px;
+    margin-left:150px;
+    margin-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.detailsheadsec .detailsheadsecdiv h1
+{
+    height: 182px;
+    width: 893px;
+    /* border: 1px solid lightsalmon; */
+    font-size: 52px;
+    text-align: center;
+    margin: 16px 0;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+.detailsheadsec .detailsheadsecdiv h2
+{
+    width: 893px;
+    height: 36px;
+    /* border: 1px solid saddlebrown; */
+    font-size: 22px;
+    text-align: center;
+    margin: 16px 0;
+}
+/* details and summary starts */
+.dssec
+{
+    height: 150vh;
+    width: 100%;
+    /* border: 1px solid sandybrown; */
+    margin:  0 auto;
+    text-align: left;
+}
+.dssec .dsdiv
+{
+    height: 1162px;
+    width: 760px;
+    margin: 35px 290px 0px;
+    padding: 0 60px;
+}
+.dssec .dsdiv header
+{
+    width: 637px;
+    height: 40px;
+    margin-top: 40px;
+    /* border: 1px solid palevioletred; */
+}
+.dsdiv details
+{
+    width: 637px;
+    /* height: 135px; */
+    font-size: 16px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    border-top: 2px solid #d6d6d6;
+    padding-top: 30px;
+
+}
+.dsdiv details summary
+{
+    display: flex;
+}
+.dssec .dsdiv details summary .question
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dssec .dsdiv details summary .question h3
+{
+    height: 69px;
+    width: 510px;
+    font-size: 24.8px;
+    color: #111111;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    text-align: left;
+}
+.dssec .dsdiv details summary .question span
+{
+    height: 69px;
+    width: 122px;
+    text-align: right;
+}
+.dssec .dsdiv details .answer1
+{
+    /* height: 192px;  don't need to give height */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer2
+{
+    /* height: 364px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer2 ul
+{
+    /* height: 168px; */
+    width: 510px;
+    
+}
+.dssec .dsdiv details .answer2 ul li
+{
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer3
+{
+    /* height: 276px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer3 ol
+{
+    /* height: 216px; */
+    width: 510px;
+}
+.dssec .dsdiv details .answer3 ol li
+{
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer4
+{
+    /* height: 120px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer5
+{
+    /* height: 120px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer6
+{
+    /* height: 144px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer7
+{
+    /* height: 120px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+.dssec .dsdiv details .answer8
+{
+    /* height: 168px; */
+    width: 510px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    color: #111111;
+    line-height: 1.5;
+}
+/* legal sec starts */
+.legalsec
+{
+    height: 86px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 44px;
+    padding: 17px 61px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.legalsec .legaldiv1 span
+{
+   height: 22px;
+   width: 27px;
+   /* border: 1px solid brown; */
+   color: #111111;
+}
+.legalsec .legaldiv1 a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 13.5px;
+    
+}
+.legalsec .legaldiv1 p
+{
+    line-height: 1.5;
+    font-size: 13.5px;
+}
+/* support sec starts */
+.supportsec
+{
+    height: 86px;
+    width: 100%;
+    /* border: 1px solid violet; */
+    background-color: #1BDBDB;
+    margin: 0 auto;
+    padding: 15px;
+}
+.supportsec .supportdiv
+{
+    height: 66px;
+    width: 100%;
+    /* border: 1px solid orangered; */
+    margin-top: 8px;
+}
+.supportsec .supportdiv p
+{
+    height: 34px;
+    width: 100%;
+    /* border: 1px solid orange; */
+    margin: 16px 0px;
+    text-align: center;
+    
+}
+.supportsec .supportdiv p span
+{
+    height: 40px;
+    width: 664px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+/* arrow sec starts */
+.arrowsec
+{
+    height: 136px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+    background-color: #111;
+
+}
+.arrowsec .arrowdiv
+{
+    height: 136px;
+    width: 94%;
+    /* border: 1px solid yellow; */
+    margin: 0 auto;
+    padding: 17px 0px 17px 30px;
+
+}
+.arrowsec .arrowdiv a
+{
+    height: 136px;
+    width: 100%;
+    text-decoration: none;
+}
+.arrowsec .arrowdiv a p
+{
+    height: 33px;
+    width: 94%;
+    margin-bottom: 16px;
+    color: #bac0c3;
+    font-size: 18px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.arrowsec .arrowdiv a .arrowimg
+{
+    height: 52px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.arrowsec .arrowdiv a .arrowimg svg
+{
+    height: 52px;
+    width: 388px;
+    /* border: 1px solid blue; */
+}
+.arrowsec .arrowdiv a .arrowimg img
+{
+    height: 52px;
+    width: 91px;
+    /* border: 1px solid purple; */
+    
+}
+/* nav table starts */
+.navtablesec
+{
+   height: 461px;
+   width: 100%;
+   /* border: 1px solid black; */
+   margin: 0 auto;
+   font-family: gdsherpa,Helvetica,Arial,sans-serif;
+   background-color: #111;
+   padding: 18px 0px;
+}
+.navtablesec .navtableart
+{
+   height: 437px;
+   width: 94%;
+   /* border: 1px solid orangered; */
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.navtablesec .navtableart div
+{
+   height: 437px;
+}
+.navtablesec .navtableart div ul
+{
+    list-style-type: none;
+    padding: 0px 17px;
+}
+.navtablesec .navtableart div ul li
+{
+    color: white;
+    font-size: 14px;
+    margin: 12px 0px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.navtablesec .navtableart div ul li a
+{
+    text-decoration: none;
+    color: #bac0c3;
+    font-size: 11px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+}
+.navtablesec .navtableart div ul li a:hover
+{
+    text-decoration: underline;
+}
+/* footer font sec starts */
+.footerfontsec
+{
+    height: 58px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    background-color: #111;
+}
+.footerfontsec .footerfontart
+{
+    height: 58px;
+    width: 94%;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+
+
+}
+.footerfontsec .footerfontart .footerfontdiv1
+{
+    height: 58px;
+    width: 166px;
+    /* border: 1px solid saddlebrown;   */
+}
+.footerfontsec .footerfontart .footerfontdiv1 a
+{
+    color: white;
+}
+.footerfontsec .footerfontart .footerfontdiv1 svg
+{
+    height: 34px;
+    width: 166px;
+    
+}
+.footerfontsec .footerfontart .footerfontdiv2
+{
+    height: 56px;
+    width: 1000px;
+    /* border: 1px solid salmon; */
+}
+.footerfontsec .footerfontart .footerfontdiv2 button
+{
+    height: 40px;
+    width: 142px;
+    font-size: 14px;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    background-color: #111;
+    color: white;
+    border: #111;
+}
+.footerfontsec .footerfontart .footerfontdiv2 button:hover
+{
+    font-size: 14.5px;
+}
+.footerfontsec .footerfontart .footerfontdiv2 button i
+{
+    font-size: 16px;
+}
+.footerfontsec .footerfontart .footerfontdiv3
+{
+    height: 56px;
+    width: 132px;
+    /* border: 1px solid skyblue; */
+    font-size: 25px;
+}
+.footerfontsec .footerfontart .footerfontdiv3 a
+{
+    color: #ffffff;
+    margin-left: 10px;
+}
+/* footer end sec starts */
+.footerendsec
+{
+    height: 105px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-family: gdsherpa,Helvetica,Arial,sans-serif;
+    background-color: #111;
+}
+.footerendsec .footerendart
+{
+    height: 78px;
+    width: 94%;
+    /* border: 1px solid crimson; */
+    margin: 0 auto;
+    margin-top: 9px;
+    margin-bottom: 18px;
+    display: flex;
+}
+.footerendsec .footerendart .footerenddiv1
+{
+    height: 78px;
+    width: 75%;
+    /* border:1px solid purple; */
+    color: #ffffff;
+    
+}
+.footerendsec .footerendart .footerenddiv2
+{
+    height: 78px;
+    width: 25%;
+    /* border:1px solid violet; */
+    color: #ffffff;
+}
+.footerendsec .footerendart .footerenddiv1 .footdivcopy
+{
+    height: 38px;
+    width: 100%;
+    font-size: 11.8px;
+    
+}
+.footerendsec .footerendart .footerenddiv1 .footdivterm
+{
+    height: 19px;
+    width: 100%;
+    font-size: 11.8px;
+    line-height: 3.5;
+}
+.footerendsec .footerendart .footerenddiv1 .footdivterm a
+{
+    text-decoration: none;
+    color: #bac0c3;
+    font-size: 11.8px;
+}
+.footerendsec .footerendart .footerenddiv1 .footdivterm a:hover
+{
+    text-decoration: underline;
+}
+.footerendsec .footerendart .footerenddiv2 .footdivlist
+{
+    height: 19px;
+    width: 100%;
+    font-size: 11.8px;
+}
+.footerendsec .footerendart .footerenddiv2 .footdivlist span a
+{
+    margin-left: 7px;
+    color: #bac0c3;
+    text-decoration: none;
+}
+.footerendsec .footerendart .footerenddiv2 .footdivlist span a:hover
+{
+    text-decoration: underline;
+}
+.footerendsec .footerendart .footerenddiv2 .footdivimg
+{
+    height: 35px;
+    width: 145px;
+    border: 1px solid;
+    border-radius: 30px;
+    background: linear-gradient(166.66deg, #1F75CE 4.62%, #1779CF 4.62%, #744BC4 86.29%);
+    margin-top: 15px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 88%;
+    left: 100;
+}
+.footerendsec .footerendart .footerenddiv2 .footdivimg p
+{
+    font-size: 13.8px;
+    font-weight: bold;
+    color: white;
+}
